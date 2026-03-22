@@ -1,5 +1,5 @@
 # 🚀 Universal Video Downloader (V8.0 Pro)
-**Developer**: Khant Kyaw Thu (K2 Mobile)
+**Developer**: Haruki
 
 The most reliable and professional CLI video downloading tool for Termux. High-speed performance for downloading your favorite content from YouTube, TikTok, Facebook, and many other platforms.
 
@@ -10,17 +10,18 @@ The most reliable and professional CLI video downloading tool for Termux. High-s
 - **Universal Multi-Bar UI**: A clean, aesthetic interface featuring sequential progress bars for every video.
 - **Dynamic Loading Spinners**: Real-time visual status indicators while the engine is processing.
 
-## 🛠️ Installation
-Paste the following commands into your Termux terminal:
+🔶 🛠️ Installation (Step-by-Step)
 
 ```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+pip install yt-dlp colorama
+termux-setup-storage
 git clone [https://github.com/Hantkyaw/Universal-Video-Downloader](https://github.com/Hantkyaw/Universal-Video-Downloader)
 cd Universal-Video-Downloader
 python k2dl.py
-
-📋 Requirements
-​Python 3
-​yt-dlp
-​colorama
-​🤝 Support
-​Created and maintained by Khant Kyaw Thu (K2 Mobile). If you encounter any bugs or have feature requests, feel free to open an issue or contact the developer.
+```
+🚀 Quick Setup (All-in-one Command)
+```bash
+pkg update && pkg upgrade -y && pkg install python git -y && pip install yt-dlp colorama && termux-setup-storage && git clone [https://github.com/Hantkyaw/Universal-Video-Downloader](https://github.com/Hantkyaw/Universal-Video-Downloader) && cd Universal-Video-Downloader && python k2dl.py
+```
